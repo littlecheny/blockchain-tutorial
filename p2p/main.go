@@ -126,7 +126,7 @@ func handleConn(conn net.Conn) {
 			}
 
 			bcServer <- Blockchain
-			io.WriteString(conn, "\nEnter a new BPM")
+			io.WriteString(conn, "\nEnter a new BPM:")
 		}
 	}()
 
